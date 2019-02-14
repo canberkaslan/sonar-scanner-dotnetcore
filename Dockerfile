@@ -6,7 +6,7 @@ ENV DOCKER_VERSION 18.06.1~ce~3-0~debian
 # Install Java 8
 RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y openjdk-8-jre
 
-# Install docker binaries
+# Install docker binaries here
 RUN apt-get install -y \
         apt-transport-https \
         ca-certificates \
